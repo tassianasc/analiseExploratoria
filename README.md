@@ -1,7 +1,7 @@
 
 # Análise Exploratória dos Dados dos Vencedores do Oscar
 
-Este repositório contém uma análise exploratória dos dados dos vencedores do Oscar ao longo dos anos, abordando características como ano de nascimento, etnia, religião e outras informações pessoais. O projeto foi desenvolvido com Python, utilizando `pandas` para manipulação de dados e `matplotlib` e `seaborn` para visualizações.
+Este repositório contém uma análise exploratória dos dados dos vencedores do Oscar ao longo dos anos, abordando características como ano de nascimento, etnia, religião e outras informações pessoais. O projeto foi desenvolvido com Python, utilizando `pandas` para manipulação de dados, `matplotlib` e `seaborn` para visualizações.
 
 ## Estrutura do Projeto
 
@@ -22,6 +22,7 @@ O objetivo do projeto foi explorar dados demográficos e características dos ve
 
 3. **Renomeação de Colunas**
    - As colunas foram renomeadas para nomes mais claros em português:
+     - `Unnamed: 0` para `nome`
      - `birth_year` para `ano_nascimento`
      - `birth_date` para `data_nascimento`
      - `birthplace` para `local_nascimento`
