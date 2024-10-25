@@ -1,69 +1,77 @@
+# Análise de Dados de Indicados ao Oscar 🎬
 
-# Análise Exploratória dos Dados dos Vencedores do Oscar
+Este projeto visa explorar e analisar dados sobre indicados ao Oscar, com foco em características demográficas, frequência de indicações e padrões de diversidade. Utilizamos Python e bibliotecas de visualização para extrair insights e responder a perguntas relevantes sobre o perfil dos indicados.
 
-Este repositório contém uma análise exploratória dos dados dos vencedores do Oscar ao longo dos anos, abordando características como ano de nascimento, etnia, religião e outras informações pessoais. O projeto foi desenvolvido com Python, utilizando `pandas` para manipulação de dados, `matplotlib` e `seaborn` para visualizações.
+## Sumário 📑
 
-## Estrutura do Projeto
+1. [Contexto](#contexto)
+2. [Objetivos da Análise](#objetivos-da-análise)
+3. [Etapas da Análise](#etapas-da-análise)
+4. [Ferramentas Utilizadas](#ferramentas-utilizadas)
+5. [Como Executar a Análise](#como-executar-a-análise)
+6. [Principais Resultados](#principais-resultados)
 
-- `codigo.ipynb`: Notebook Jupyter com a análise detalhada.
-- `tabelaOscar.csv`: Dataset utilizado para a análise, com informações sobre vencedores do Oscar.
+---
 
-## Objetivo
+### Contexto
 
-O objetivo do projeto foi explorar dados demográficos e características dos vencedores do Oscar, investigando padrões e tendências de variáveis como etnia, religião e ano de nascimento.
+Os dados contêm informações demográficas e profissionais dos indicados ao Oscar, incluindo nome, data e local de nascimento, religião, etnia, orientação sexual, categoria de indicação, filme, entre outros. Esta análise visa revelar padrões no perfil dos indicados, oferecendo insights sobre representatividade e diversidade.
 
-## Etapas da Análise
+### Objetivos da Análise
 
-1. **Importação de Bibliotecas**
-   - Utilizamos `pandas`, `matplotlib`, e `seaborn` para manipulação e visualização de dados.
+1. Explorar características gerais dos indicados ao Oscar ao longo dos anos.
+2. Analisar distribuições demográficas, como idade, etnia e religião.
+3. Identificar padrões de indicações em categorias específicas.
+4. Avaliar a distribuição por década e o impacto no perfil demográfico.
 
-2. **Carregamento e Visualização Inicial dos Dados**
-   - O dataset foi carregado usando `pandas` e inspecionado com a exibição das primeiras entradas.
+### Etapas da Análise
 
-3. **Renomeação de Colunas**
-   - As colunas foram renomeadas para nomes mais claros em português:
-     - `Unnamed: 0` para `nome`
-     - `birth_year` para `ano_nascimento`
-     - `birth_date` para `data_nascimento`
-     - `birthplace` para `local_nascimento`
-     - `race_ethnicity` para `etnia`
-     - `religion` para `religiao`
-     - `sexual_orientation` para `orientacao_sexual`
-     - `year_edition` para `ano_edicao`
-     - `category` para `categoria`
-     - `movie` para `filme`
+A análise foi realizada com as seguintes etapas:
 
-4. **Tratamento de Dados Faltantes**
-   - Valores ausentes em `data_nascimento` foram preenchidos com "Data desconhecida".
-   - Na coluna `religiao`, uma nova categoria "Desconhecida" foi criada para lidar com valores ausentes.
+1. **Importação dos Dados**: Carregamos e verificamos a estrutura dos dados.
+2. **Pré-processamento e Limpeza**:
+   - Renomeação de colunas para facilitar a leitura.
+   - Tratamento de valores ausentes, substituindo valores por categorias "Desconhecida" onde aplicável.
+3. **Exploração de Dados**:
+   - Frequências de valores categóricos, como religião e etnia.
+   - Distribuição de idades e presença de outliers em variáveis numéricas.
+4. **Visualizações**:
+   - Gráficos de barra e boxplots para explorar categorias, idade e etnia por década.
+5. **Resultados Estatísticos**:
+   - Contagem de indicações por cidade de nascimento e frequência de indicações por ator.
 
-5. **Análise Exploratória**
-   - **Religião**: Contagem das religiões representadas, com visualização em gráfico de barras para facilitar a compreensão.
+### Ferramentas Utilizadas
 
-6. **Visualização dos Dados**
-   - Gráficos de barras foram utilizados para representar visualmente a frequência de religiões no dataset, trazendo uma visão clara das categorias e contagens de cada grupo.
+A análise foi conduzida em Python, utilizando as bibliotecas:
 
-## Tecnologias Utilizadas
+- **Pandas**: Para manipulação e análise de dados.
+- **Matplotlib** e **Seaborn**: Para visualização de dados.
 
-- **Python**
-- **Bibliotecas**: `pandas`, `matplotlib`, `seaborn`
+### Como Executar a Análise
 
-## Como Utilizar este Repositório
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu_usuario/nome_do_repositorio.git
-   ```
-2. Instale as dependências necessárias:
+1. Certifique-se de ter o Python instalado (recomenda-se Python 3.8 ou superior).
+2. Instale as bibliotecas necessárias:
    ```bash
    pip install pandas matplotlib seaborn
    ```
-3. Abra o notebook `codigo.ipynb` para acompanhar a análise.
+3. Baixe o arquivo de dados `tabelaOscar.csv` e o script Jupyter Notebook ou execute o código diretamente em um ambiente Python.
 
-## Resultados e Conclusões
+### Principais Resultados
 
-A análise revelou tendências interessantes entre os vencedores do Oscar, possibilitando uma visão das diversas representações de etnia, religião e outros aspectos demográficos ao longo das edições do prêmio.
+- **Distribuição por Religião**: A análise mostra uma variação significativa na religião dos indicados. 
+- **Idade e Categoria**: A distribuição de idade por categoria indicou que certas categorias possuem indicados mais jovens ou mais experientes, dependendo do tipo de papel ou habilidade.
+- **Indicações por Etnia e Década**: Analisamos a representatividade ao longo das décadas, observando mudanças na diversidade entre os indicados.
+- **Principais Indicados**: Identificamos os atores mais indicados e os filmes mais antigos e recentes no dataset.
 
-## Contribuição
+### Exemplos de Visualizações
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir um *issue* ou enviar um *pull request*.
+- **Gráfico de Frequência de Religião**: Visualiza a quantidade de indicados de acordo com a religião.
+- **Distribuição de Idade por Categoria**: Utilizando um boxplot, a análise mostra a variação etária por categoria de indicação.
+- **Etnia por Década**: Com um gráfico de contagem, é possível observar as mudanças na representatividade étnica ao longo do tempo.
+
+---
+
+A análise ajuda a entender melhor o perfil dos indicados ao Oscar, suas origens, e sua diversidade ao longo dos anos, trazendo uma perspectiva histórica e demográfica sobre essa renomada premiação.
+
+--- 
+
