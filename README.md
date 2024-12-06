@@ -29,12 +29,18 @@ Os dados contêm informações demográficas e profissionais dos indicados ao Os
 A análise foi realizada com as seguintes etapas:
 
 1. **Importação dos Dados**: Carregamos e verificamos a estrutura dos dados.
+   ![Captura de tela de 2024-12-06 10-54-49 1](https://github.com/user-attachments/assets/42b6d1ef-2e9a-4d4e-9a2f-0be5036e96ae)
 
-   ![Captura de tela de 2024-12-06 10-55-58](https://github.com/user-attachments/assets/8dd2560d-78de-4966-87b7-323dee4db5c2)
 
+  
 3. **Pré-processamento e Limpeza**:
    - Renomeação de colunas para facilitar a leitura.
-   - Tratamento de valores ausentes, substituindo valores por categorias "Desconhecida" onde aplicável.
+     ![Captura de tela de 2024-12-06 10-55-58](https://github.com/user-attachments/assets/e9c57d4d-bc89-4d48-a773-1f85fa1f75d3)
+
+   - Tratamento de valores ausentes de data de nascimento e religião, substituindo valores por categorias "Desconhecida" onde aplicável.
+     ![Imagem do WhatsApp de 2024-12-06 à(s) 11 08 53_00997259](https://github.com/user-attachments/assets/17c3eada-6329-494f-af76-066cc58a22df)
+![Imagem do WhatsApp de 2024-12-06 à(s) 11 08 53_00997259](https://github.com/user-attachments/assets/accdafee-eb31-4122-ab60-23cb4cb23ee7)
+
 4. **Exploração de Dados**:
    - Frequências de valores categóricos, como religião e etnia.
    - Distribuição de idades e presença de outliers em variáveis numéricas.
