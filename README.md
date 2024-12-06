@@ -57,6 +57,8 @@ A distribuição dos dados parece estar dentro de uma faixa considerada normal p
 As categorias "Best Supporting Actor" e "Best Supporting Actress" apresentam maior variabilidade nas idades, o que sugere que os indicados a essas categorias podem ter carreiras que começam mais cedo ou que continuam por mais tempo.
 As categorias principais ("Best Actress" e "Best Actor") têm uma faixa etária mais limitada, possivelmente refletindo padrões específicos da indústria para papéis principais.
 "Best Director" tende a envolver indicados em idades mais avançadas, refletindo talvez a necessidade de mais experiência para essa posição.
+![Imagem do WhatsApp de 2024-12-06 à(s) 11 36 37_6a391ceb](https://github.com/user-attachments/assets/e4b56d9f-ac48-4026-8a1c-a73310ef7d2a)
+
 ![Imagem do WhatsApp de 2024-12-06 à(s) 11 34 56_b229dd96](https://github.com/user-attachments/assets/e1f05ade-2d5f-44e7-9712-3b87a18a28c1)
 
 
