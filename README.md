@@ -13,6 +13,23 @@ Este projeto visa explorar e analisar dados sobre indicados ao Oscar, com foco e
 
 ---
 
+### Ferramentas Utilizadas
+
+A análise foi conduzida em Python, utilizando as bibliotecas:
+
+- **Pandas**: Para manipulação e análise de dados.
+- **Matplotlib** e **Seaborn**: Para visualização de dados.
+
+### Como Executar a Análise
+
+1. Certifique-se de ter o Python instalado (recomenda-se Python 3.8 ou superior).
+2. Instale as bibliotecas necessárias:
+   ```bash
+   pip install pandas matplotlib seaborn
+   ```
+3. Baixe o arquivo de dados `tabelaOscar.csv` e o script Jupyter Notebook ou execute o código diretamente em um ambiente Python.
+
+
 ### Contexto
 
 Os dados contêm informações demográficas e profissionais dos indicados ao Oscar, incluindo nome, data e local de nascimento, religião, etnia, orientação sexual, categoria de indicação, filme, entre outros. Esta análise visa revelar padrões no perfil dos indicados, oferecendo insights sobre representatividade e diversidade.
@@ -71,22 +88,6 @@ Apesar de John Ford e Katharine Hepburn liderarem, as diferenças entre os mais 
 
 6. **Resultados Estatísticos**:
    - Contagem de indicações por cidade de nascimento e frequência de indicações por ator.
-
-### Ferramentas Utilizadas
-
-A análise foi conduzida em Python, utilizando as bibliotecas:
-
-- **Pandas**: Para manipulação e análise de dados.
-- **Matplotlib** e **Seaborn**: Para visualização de dados.
-
-### Como Executar a Análise
-
-1. Certifique-se de ter o Python instalado (recomenda-se Python 3.8 ou superior).
-2. Instale as bibliotecas necessárias:
-   ```bash
-   pip install pandas matplotlib seaborn
-   ```
-3. Baixe o arquivo de dados `tabelaOscar.csv` e o script Jupyter Notebook ou execute o código diretamente em um ambiente Python.
 
 ### Principais Resultados
 
