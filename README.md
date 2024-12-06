@@ -62,6 +62,8 @@ As categorias principais ("Best Actress" e "Best Actor") têm uma faixa etária 
 
 ![Imagem do WhatsApp de 2024-12-06 à(s) 11 36 37_6a391ceb](https://github.com/user-attachments/assets/e4b56d9f-ac48-4026-8a1c-a73310ef7d2a)
 
+Os dados mostram uma forte predominância de nascimentos em cidades dos EUA, especialmente Nova York, seguida de Londres. As cidades internacionais aparecem em menor número, indicando uma concentração geográfica significativa na origem das pessoas representadas nesse conjunto de dados.
+
 ![Imagem do WhatsApp de 2024-12-06 à(s) 11 34 56_b229dd96](https://github.com/user-attachments/assets/e1f05ade-2d5f-44e7-9712-3b87a18a28c1)
 
 Apesar de John Ford e Katharine Hepburn liderarem, as diferenças entre os mais indicados são pequenas, sugerindo que estas personalidades foram altamente reconhecidas em várias categorias ou ao longo de suas carreiras.
