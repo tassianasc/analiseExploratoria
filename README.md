@@ -44,7 +44,7 @@ A análise foi realizada com as seguintes etapas:
 4. **Exploração de Dados**:
    - Frequências de valores categóricos, como religião e etnia.
      ![religiao](https://github.com/user-attachments/assets/1c0227f4-8117-4191-9eaa-7d5b553112a2)
-     Conclusão: A etnia "White" (Branca) tem uma frequência significativamente maior do que todas as outras etnias, indicando uma representação desproporcional em relação às demais categorias.As outras etnias, como "Black", "Hispanic", "Asian", "Multiracial", e "Middle Eastern", têm frequências bem menores, indicando uma possível desigualdade de representação.
+A etnia "White" (Branca) tem uma frequência significativamente maior do que todas as outras etnias, indicando uma representação desproporcional em relação às demais categorias.As outras etnias, como "Black", "Hispanic", "Asian", "Multiracial", e "Middle Eastern", têm frequências bem menores, indicando uma possível desigualdade de representação.
 
    - Distribuição de idades e presença de outliers em variáveis numéricas.
      ![Imagem do WhatsApp de 2024-12-06 à(s) 11 26 00_c8a3084b](https://github.com/user-attachments/assets/0d50820b-8c88-4bab-ac10-6de5c9b43179)
