@@ -51,12 +51,15 @@ A etnia "White" (Branca) tem uma frequência significativamente maior do que tod
      
 Não há presença de outliers, pois não existem pontos plotados fora das extremidades dos whiskers (linhas que representam os limites inferior e superior).
 A distribuição dos dados parece estar dentro de uma faixa considerada normal para as variáveis analisadas.
+
 5. **Visualizações**:
    - Gráficos de barra e boxplots para explorar categorias, idade e etnia por década.
      ![Imagem do WhatsApp de 2024-12-06 à(s) 11 30 03_15588231](https://github.com/user-attachments/assets/cc52505b-34a3-41f9-a476-8fc2690e4a1f)
 As categorias "Best Supporting Actor" e "Best Supporting Actress" apresentam maior variabilidade nas idades, o que sugere que os indicados a essas categorias podem ter carreiras que começam mais cedo ou que continuam por mais tempo.
 As categorias principais ("Best Actress" e "Best Actor") têm uma faixa etária mais limitada, possivelmente refletindo padrões específicos da indústria para papéis principais.
 "Best Director" tende a envolver indicados em idades mais avançadas, refletindo talvez a necessidade de mais experiência para essa posição.
+
+
 ![Imagem do WhatsApp de 2024-12-06 à(s) 11 36 37_6a391ceb](https://github.com/user-attachments/assets/e4b56d9f-ac48-4026-8a1c-a73310ef7d2a)
 
 ![Imagem do WhatsApp de 2024-12-06 à(s) 11 34 56_b229dd96](https://github.com/user-attachments/assets/e1f05ade-2d5f-44e7-9712-3b87a18a28c1)
