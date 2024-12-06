@@ -29,15 +29,18 @@ Os dados contêm informações demográficas e profissionais dos indicados ao Os
 A análise foi realizada com as seguintes etapas:
 
 1. **Importação dos Dados**: Carregamos e verificamos a estrutura dos dados.
-2. **Pré-processamento e Limpeza**:
+
+   ![Captura de tela de 2024-12-06 10-55-58](https://github.com/user-attachments/assets/8dd2560d-78de-4966-87b7-323dee4db5c2)
+
+3. **Pré-processamento e Limpeza**:
    - Renomeação de colunas para facilitar a leitura.
    - Tratamento de valores ausentes, substituindo valores por categorias "Desconhecida" onde aplicável.
-3. **Exploração de Dados**:
+4. **Exploração de Dados**:
    - Frequências de valores categóricos, como religião e etnia.
    - Distribuição de idades e presença de outliers em variáveis numéricas.
-4. **Visualizações**:
+5. **Visualizações**:
    - Gráficos de barra e boxplots para explorar categorias, idade e etnia por década.
-5. **Resultados Estatísticos**:
+6. **Resultados Estatísticos**:
    - Contagem de indicações por cidade de nascimento e frequência de indicações por ator.
 
 ### Ferramentas Utilizadas
