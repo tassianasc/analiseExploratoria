@@ -48,7 +48,8 @@ A etnia "White" (Branca) tem uma frequência significativamente maior do que tod
 
    - Distribuição de idades e presença de outliers em variáveis numéricas.
      ![Imagem do WhatsApp de 2024-12-06 à(s) 11 26 00_c8a3084b](https://github.com/user-attachments/assets/0d50820b-8c88-4bab-ac10-6de5c9b43179)
-
+Não há presença de outliers, pois não existem pontos plotados fora das extremidades dos whiskers (linhas que representam os limites inferior e superior).
+A distribuição dos dados parece estar dentro de uma faixa considerada normal para as variáveis analisadas.
 5. **Visualizações**:
    - Gráficos de barra e boxplots para explorar categorias, idade e etnia por década.
      ![Imagem do WhatsApp de 2024-12-06 à(s) 11 30 03_15588231](https://github.com/user-attachments/assets/cc52505b-34a3-41f9-a476-8fc2690e4a1f)
