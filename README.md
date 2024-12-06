@@ -64,6 +64,8 @@ As categorias principais ("Best Actress" e "Best Actor") têm uma faixa etária 
 
 ![Imagem do WhatsApp de 2024-12-06 à(s) 11 34 56_b229dd96](https://github.com/user-attachments/assets/e1f05ade-2d5f-44e7-9712-3b87a18a28c1)
 
+Apesar de John Ford e Katharine Hepburn liderarem, as diferenças entre os mais indicados são pequenas, sugerindo que estas personalidades foram altamente reconhecidas em várias categorias ou ao longo de suas carreiras.
+
 
 6. **Resultados Estatísticos**:
    - Contagem de indicações por cidade de nascimento e frequência de indicações por ator.
