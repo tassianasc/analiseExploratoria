@@ -103,7 +103,7 @@ A análise foi conduzida em Python, utilizando as bibliotecas:
 
 ---
 
-A análise ajuda a entender melhor o perfil dos indicados ao Oscar, suas origens, e sua diversidade ao longo dos anos, trazendo uma perspectiva histórica e demográfica sobre essa renomada premiação.
+A análise destaca desigualdades significativas na representatividade étnica, com predominância da etnia "White" e baixa frequência de outras etnias. Categorias como "Best Supporting Actor" e "Best Supporting Actress" apresentam maior variação etária, indicando flexibilidade nas idades dos indicados, enquanto categorias principais e direção refletem padrões mais restritos. A concentração geográfica nos EUA, especialmente em Nova York, e a limitada presença de cidades internacionais revelam centralização regional. John Ford e Katharine Hepburn lideram as indicações, embora outros nomes também tenham alta recorrência. Mudanças na representatividade étnica e geográfica ao longo das décadas apontam para tendências históricas e sociais. Visualizações como gráficos de barras e boxplots foram essenciais para identificar essas disparidades. A análise reforça a necessidade de maior diversidade e inclusão nos indicados ao Oscar.
 
 --- 
 
